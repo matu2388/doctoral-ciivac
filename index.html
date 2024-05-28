@@ -40,6 +40,13 @@
         #map {
             height: 400px;
         }
+        .section-link {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        .section-link:hover {
+            text-decoration: underline;
+        }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 </head>
@@ -47,6 +54,7 @@
     <header>
         <h1>Investigación Doctoral</h1>
         <p>Entendiendo las relaciones entre las personas y sus paisajes a lo largo del tiempo</p>
+        <img src="caratula.jpg" alt="Carátula de la Tesis" style="max-width: 100%; height: auto;">
     </header>
 
     <div class="container">
@@ -56,23 +64,23 @@
         </section>
 
         <section>
-            <h2>Metodología</h2>
-            <p>Aquí puedes describir los métodos utilizados en tu investigación.</p>
+            <h2><a href="metodologia.html" class="section-link">Metodología</a></h2>
+            <p>Descripción breve de los métodos utilizados en la investigación.</p>
         </section>
 
         <section>
-            <h2>Resultados</h2>
-            <p>Aquí puedes presentar los principales hallazgos y conclusiones de tu investigación.</p>
+            <h2><a href="resultados.html" class="section-link">Resultados</a></h2>
+            <p>Resumen de los principales hallazgos y conclusiones de la investigación.</p>
+        </section>
+
+        <section>
+            <h2><a href="publicaciones.html" class="section-link">Publicaciones</a></h2>
+            <p>Enlaces a publicaciones relevantes.</p>
         </section>
 
         <section>
             <h2>Mapa Interactivo</h2>
             <div id="map"></div>
-        </section>
-
-        <section>
-            <h2>Publicaciones</h2>
-            <p>Aquí puedes añadir enlaces a tus publicaciones relevantes.</p>
         </section>
 
         <section>
