@@ -1,7 +1,7 @@
 import { Map, marker, popup } from 'leaflet';
-import { tileLayerSelect } from '../../config/tile-layer/functions';
+import { tileLayerSelect } from '../config/tile-layer/functions';
 import { startMapTemplate } from '../../assets/template/content';
-import { tileLayers } from '../../config/tile-layer/data';
+import { tileLayers } from '../config/tile-layer/data';
 
 startMapTemplate(document, '');
 
